@@ -3128,24 +3128,12 @@ Remove-Item -Path "$env:LOCALAPPDATA\CoreAIPlatform*" -Force -Recurse -ErrorActi
 $input = Read-Host 'Done! Press Any Key to Exit'
 if ($input) { exit }}
 
-
-}
-}
-
 7 {
     Clear-Host
-  Write-Host "Exiting..."
-  Start-Sleep -Seconds 2
-exit
-}
-default {
-        Write-Host "Invalid selection. Please choose a number between 0 and 7."
-
-     }
-
-    
-    
-    
+    Write-Host "Exiting..."
+    Start-Sleep -Seconds 2
+    exit
+}  }}
 
 
 
